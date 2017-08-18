@@ -6,6 +6,7 @@ Memrise Audio Generator
 - python 3.6+
 - `virtualenv`
 - `pip`
+- java jdk
 
 ### Getting Started
 
@@ -14,6 +15,7 @@ Memrise Audio Generator
 virtualenv -p $(which python3.6) venv
 source venv/bin/activate
 pip install -r requirements.txt
+mkdir audio
 ```
 
 ### Actually Running It
@@ -25,5 +27,6 @@ java -jar -Dwebdriver.gecko.driver=./geckodriver_mac selenium-server-standalone-
 
 ```bash
 # set constants correctly in main.py and then...
-python main.py
+source venv/bin/activate
+python3 main.py
 ```

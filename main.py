@@ -9,7 +9,7 @@ from selenium.webdriver.common.keys import Keys
 # Constants
 password = getpass("Password: ")
 email = "zconnelly13@gmail.com"
-memrise_url = "https://www.memrise.com/course/1588576/random/edit/database/2577054/?page=%s"  # noqa
+memrise_url = "https://www.memrise.com/course/1559979/harry-potter-und-das-verwunschene-kind/edit/database/2547033/?page=%s"  # noqa
 dir_path = os.path.dirname(os.path.realpath(__file__))
 
 # Login and Get to the Project Page
