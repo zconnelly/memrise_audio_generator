@@ -22,3 +22,8 @@ pip install -r requirements.txt
 # start a selenium server
 java -jar -Dwebdriver.gecko.driver=./geckodriver_mac selenium-server-standalone-3.0.1.jar
 ```
+
+```bash
+# set constants correctly in main.py and then...
+python main.py
+```
